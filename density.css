@@ -1,0 +1,29 @@
+.density-chart {
+  font: 10px 'Open Sans', sans-serif;
+}
+
+.density-rule {
+    stroke: #000;
+    stroke-width: 0.5;
+}
+
+.density-original {
+    stroke: #000;
+    stroke-width: 1.3px;
+    fill: #eee;
+}
+
+.density-filled {
+    stroke: none;
+    fill: none;
+}
+
+.density-xaxis path, .density-xaxis line{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.density-axis-label {
+    font-weight: 600;
+}
